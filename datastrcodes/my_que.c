@@ -28,29 +28,6 @@ int IsFull()
 
 }
 
-void P_Enque(int x , int priority)
-{
- if (((rear+1)% N == front))
-	return;
- else if (IsEmpty())
- {
- front = 0;
- rear = 0;
- A[rear] = x;
- }
- else
- {
-	rear = (rear+1)%N;
- }
- A[rear] = x;
-
-
-
-
-
-}
-
-
 
 void Enqueue(int x)
 {
