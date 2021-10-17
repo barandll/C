@@ -1,1 +1,1 @@
-# C
+# C programming and data structures
